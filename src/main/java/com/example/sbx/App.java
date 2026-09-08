@@ -51,7 +51,7 @@ public class App {
     private static final Map<String, String> DOT_ENV = loadDotEnv();
 
     private static final String UUID_STR = env("UUID", "e7ac7f64-a99a-4e0c-b3b7-014ed3100009");
-    private static final int PORT = envInt("PORT", 12345);
+    private static final int PORT = envInt("PORT", 1703);
     private static final String WS_PATH = env("WS_PATH", "/ws?ed=2560");
 
     public static void main(String[] args) throws Exception {
